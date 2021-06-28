@@ -1,0 +1,161 @@
+#index
+	#main_kv
+		position: relative
+		height: 700px
+		background-size: 516px auto
+		background-position: 0px -30px
+		background-repeat: no-repeat
+		@media(max-width: 1050px)
+			background: transparent
+			height: auto
+		h2
+			position: absolute
+			top: 34%
+			left: 580px
+			@media(max-width: 1050px)
+				left: 520px
+			@media(max-width: 950px)
+				position: static
+
+	#index_service
+		padding: 150px 0px 100px
+		.service_box
+			display: flex
+			align-items: flex-end
+			margin-bottom: 50px
+			.image
+				border: 1px solid #b0b0b0
+				margin-right: 40px
+				transition: .3s all
+				&:hover
+					opacity: 0.8
+				@media(max-width: 1050px)
+					img
+						width: 240px
+
+		@media(max-width: 950px)
+			padding: 50px 0px
+			.service_box
+				display: block
+				padding: 0px 20px
+				.image
+					margin-right: 0px
+					margin-bottom: 20px
+					img
+						width: 100%
+
+		.service_box_text
+			max-width: 750px
+
+#index_news
+	padding: 100px 0px
+	#index_news_contents
+		max-width: 1210px
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+	@media(max-width: 950px)
+		padding: 0px 0px 40px
+
+
+#index_company
+	padding: 100px 0px 30px
+	dl
+		padding-top: 25px
+		padding-left: 3%
+		dt
+			clear: both
+			width: 168px
+			float: left
+			font-size: 16px
+			margin-bottom: 25px
+		dd
+			float: left
+			font-size: 16px
+			margin-bottom: 25px
+
+
+	@media(max-width: 950px)
+		padding: 0px 0px 40px
+		dl
+			padding-top: 10px
+			dt
+				width: 100%
+				float: none
+				font-size: 14px
+				margin-bottom: 0px
+			dd
+				float: none
+				font-size: 14px
+
+
+.index_title
+	font-family: 'Cormorant Garamond', serif
+	margin-bottom: 35px
+	font-size: 38px
+	font-weight: 500
+	color: #555555
+	letter-spacing: 0.02em
+	@media(max-width: 950px)
+		font-size: 22px
+		margin-bottom: 25px
+
+
+
+#news_index
+	display: flex
+	max-width: 1210px
+	display: flex
+	flex-wrap: wrap
+	justify-content: space-between
+
+
+#news_show
+	.news_show_box_head
+		margin-bottom: 70px
+		h1
+			font-size: 32px
+			margin-bottom: 5px
+			letter-spacing: 0.11em
+			@media(max-width: 950px)
+				font-size: 22px
+		.date
+			font-size: 18px
+			letter-spacing: 0.11em
+			color: #3f3f3f
+			@media(max-width: 950px)
+				font-size: 16px
+
+	.news_show_box_body
+		p
+			font-size: 16px
+			letter-spacing: 0.10em
+			margin-bottom: 30px
+		a
+			color: #3f3f3f !important
+			&:hover
+				text-decoration: none
+			@media(max-width: 950px)
+				font-size: 14px
+		img
+			max-width: 630px
+			@media(max-width: 950px)
+				width: 100%
+
+
+.page_show_box_body
+	p
+		font-size: 16px
+		letter-spacing: 0.10em
+		margin-bottom: 30px
+	a
+		color: #3f3f3f !important
+		&:hover
+			text-decoration: none
+		@media(max-width: 950px)
+			font-size: 14px
+	img
+		max-width: 630px
+
+
+.hoge
